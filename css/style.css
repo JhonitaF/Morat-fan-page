@@ -1,0 +1,142 @@
+
+body {
+    background-color: #f0f2f5; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.principal {
+    background-color: #ffffff;
+    width: 85%;          
+    max-width: 1100px;    
+    margin: 20px auto;     
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1); 
+    border-radius: 8px;    
+    overflow: hidden;      
+}
+
+/* Header y Título */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+header table {
+    width: 100%;
+}
+
+.logoP {
+    height: 70px;
+    width: auto;
+    transition: transform 0.3s; 
+}
+
+.logoP:hover {
+    transform: scale(1.05); 
+}
+
+.tituloP h1 {
+    color: #1a1a1a;
+    font-size: 28px;
+    margin: 0;
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+}
+
+
+nav {
+    background-color: #2c3e50; 
+    padding: 0;
+}
+
+nav table {
+    margin: 0 auto;
+}
+
+.botones {
+    padding: 15px 20px;
+}
+
+.navegacion {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+
+.navegacion:hover {
+    color: #f1c40f; 
+}
+.cajap {
+    display: flex;        
+    align-items: center;   
+    padding: 50px;
+    gap: 40px;            
+}
+
+.cajas {
+    flex: 2;           
+}
+
+.cajas h2 {
+    color: #c0392b;    
+    margin-top: 0;
+}
+
+.cajas p {
+    line-height: 1.8;    
+    color: #444;
+    text-align: justify;
+}
+
+.imgC {
+    flex: 1;   
+}
+
+.imgC img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 30px 0;
+}
+
+.pieP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pieR {
+    margin: 5px 0;
+}
+
+.logoPG {
+    height: 25px;
+    width: auto;
+    margin: 0 10px;
+    opacity: 0.7;         
+    transition: 0.3s;
+}
+
+.logoPG:hover {
+    opacity: 1;      
+}
+
+h4 {
+    font-size: 13px;
+    font-weight: 300;
+    color: #bbb;
+}
+.imgC img:hover {
+    cursor: pointer;
+    opacity: 0.8; 
+}
